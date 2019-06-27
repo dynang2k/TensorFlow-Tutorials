@@ -6,7 +6,7 @@ import numpy as np
 
 # matplot 에서 한글을 표시하기 위한 설정
 font_name = matplotlib.font_manager.FontProperties(
-                fname="/Library/Fonts/NanumGothic.otf"  # 한글 폰트 위치를 넣어주세요
+                fname="/home/dynang/다운로드/NanumFont_TTF_ALL/NanumGothic.ttf"  # 한글 폰트 위치를 넣어주세요
             ).get_name()
 matplotlib.rc('font', family=font_name)
 
